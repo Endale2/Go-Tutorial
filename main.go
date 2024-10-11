@@ -3,16 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	day := "Tuesday"
+	result := add(3, 4)
+	fmt.Println("result:  ", result)
+}
 
-	switch day {
-	case "Monday":
-		fmt.Println("It's the start of the week.")
-	case "Tuesday":
-		fmt.Println("It's Tuesday!")
-	case "Friday":
-		fmt.Println("It's almost the weekend!")
-	default:
-		fmt.Println("It's a regular day.")
-	}
+func add(a int, b int) int {
+	return a + b
 }
