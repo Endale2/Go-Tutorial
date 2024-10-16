@@ -1,12 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	result := add(3, 4)
-	fmt.Println("result:  ", result)
-}
-
-func add(a int, b int) int {
-	return a + b
+	var student1 string
+	student1 = "John"
+	fmt.Println(student1)
 }
