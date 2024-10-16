@@ -5,7 +5,13 @@ import (
 )
 
 func main() {
-	var student1 string
-	student1 = "John"
-	fmt.Println(student1)
+	myslice1 := []int{}
+	fmt.Println(len(myslice1))
+	fmt.Println(cap(myslice1))
+	fmt.Println(myslice1)
+
+	myslice2 := []string{"Go", "Slices", "Are", "Powerful"}
+	fmt.Println(len(myslice2))
+	fmt.Println(cap(myslice2))
+	fmt.Println(myslice2)
 }
