@@ -8,6 +8,6 @@ func main() {
 	fmt.Print(result)
 }
 
-func sub(x int, y int) int {
+func sub(x, y int) int {
 	return x - y
 }
