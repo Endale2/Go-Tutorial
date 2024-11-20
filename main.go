@@ -6,5 +6,6 @@ import (
 
 func main() {
 
-	fmt.Println("Hello World!")
+	congrats := "Happy BirthDay"
+	fmt.Print(congrats)
 }
