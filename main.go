@@ -1,11 +1,13 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 
-	congrats := "Happy BirthDay"
-	fmt.Print(congrats)
+	result := sub(9, 4)
+	fmt.Print(result)
+}
+
+func sub(x int, y int) int {
+	return x - y
 }
